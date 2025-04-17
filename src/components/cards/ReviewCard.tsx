@@ -10,7 +10,7 @@ interface IProps {
 
 function ReviewCard({ avatarUrl, review, name, position }: IProps) {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center border border-gray-300 rounded-2xl py-6">
       <Avatar className="w-11 h-11">
         <AvatarImage src={avatarUrl} alt="@user avatar" />
         <AvatarFallback>CN</AvatarFallback>

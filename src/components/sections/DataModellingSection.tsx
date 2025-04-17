@@ -6,31 +6,41 @@ function DataModellingSection() {
   const cardData = {
     avatarUrl: "/images/filip.png",
     review:
-      "“Attio is an incredibly flexible product, you can build anything on it. It gives you the tools you need to build a CRM that's exactly right to your business, your data, and your processes.",
+      "“Homyze is an incredibly flexible product, you can build anything on it. It gives you the tools you need to build a CRM that's exactly right to your business, your data, and your processes.",
     name: "Filip Mark",
-    position: "Chief of Staff, PassionFoot",
+    position: "Chief of Staff, Nyumbani",
   };
   return (
     <section>
       <div>
         <CustomHeader
-          title="Modeled around your data and workflows."
-          description="A CRM should go beyond deals. Attio is built for any business process."
+          title="Management modelled around your data and workflows."
+          description="Real Estate Management should go beyond deals. Homyze is built for all property management process."
         />
       </div>
 
-      <div className="w-full flex flex-col gap-[28px] items-center justify-center my-[64px] bg-white">
-        <img
-          src="/images/m_1.png"
-          alt="crm image"
-          className="w-[calc(100vw-1.5rem)] md:w-[calc(100vw-8rem)]"
-        />
-        <img
-          src="/images/m_2.png"
-          alt="crm image"
-          className="w-[calc(100vw-1.5rem)] md:w-[calc(100vw-8rem)]"
-        />
+      <div className="w-full flex flex-col md:flex-row gap-7 items-stretch justify-center my-16 bg-white px-4">
+         {/* Right - 1/3 width */}
+         <div className="p-4 rounded-2xl shadow-md border border-gray-200 bg-white w-full md:w-1/3 transition-all hover:shadow-xl">
+          <img
+            src="https://images.pexels.com/photos/4458205/pexels-photo-4458205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Small CRM Image"
+            className="w-full h-full rounded-xl object-cover filter grayscale hover:grayscale-0 transition duration-500"
+          />
+        </div>
+
+        {/* Left - 2/3 width */}
+        <div className="p-4 rounded-2xl shadow-md border border-gray-200 bg-white w-full md:w-2/3 transition-all hover:shadow-xl">
+          <img
+            src="https://images.pexels.com/photos/1546166/pexels-photo-1546166.jpeg"
+            alt="Large CRM Image"
+            className="w-full h-full rounded-xl object-cover filter grayscale hover:grayscale-0 transition duration-500"
+          />
+        </div>
+
+       
       </div>
+
 
       <div>
         <ReviewCard {...cardData} />

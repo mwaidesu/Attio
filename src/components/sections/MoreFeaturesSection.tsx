@@ -42,7 +42,7 @@ function MoreFeaturesSection() {
         <CustomStyledHeader
           titleColored="And so"
           titleUnColored="much more..."
-          description="Your customers are always connected. Why should your CRM be any different?"
+          description="Your customers are always connected. Why should your property be any different?"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-[64px]">

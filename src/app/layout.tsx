@@ -4,7 +4,7 @@ import './globals.css'
 
 
 export const metadata: Metadata = {
-  title: 'Attio',
+  title: 'Homyze',
   description: 'CRM platform for conversion',
 }
 

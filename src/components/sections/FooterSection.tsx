@@ -14,13 +14,13 @@ function FooterSection() {
       "Integromat",
     ],
     company: ["About", "Careers", "Blog", "Startip program"],
-    attioFor: ["Startups", "Dear flow"],
+    attioFor: ["Tenants", "Agents", "Landlords"],
     support: ["Help Center", "Talk to support", "API docs", "System status"],
   };
   return (
     <section className="bg-[#232529] px-4 md:px-[94px] py-[90px]">
       <div>
-        <img src="/images/footer_logo.svg" alt="footer logo" />
+        <img src="https://i.postimg.cc/FFBM5gn0/DREAMHOME.png" width={100} alt="footer logo" />
       </div>
 
       <div className="mt-[32px] pb-[50px] flex justify-between w-full gap-8 flex-col md:flex-row flex-wrap">
@@ -45,7 +45,7 @@ function FooterSection() {
           </div>
         </div>
         <div>
-          <p className="text-[#9098A0] mb-[12px]">Attio for</p>
+          <p className="text-[#9098A0] mb-[12px]">Homyz for</p>
           <div className="flex flex-col gap-3">
             {data.attioFor.map((item, index) => (
               <p key={index} className="text-[#555E67] hover:cursor-pointer">

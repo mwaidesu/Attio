@@ -13,10 +13,10 @@ function SecurityScaleSection() {
             "text-[40px] leading-tight md:leading-normal text-primary"
           )}
         >
-          Scale with <span className="text-gray-500">security</span>
+          Scale with <span className="text-gray-500">Homyze Pro</span>
         </p>
         <p className="text-[20px] text-primary mt-1.5 mb-6">
-          Attio is audited and certified by industry leading Third Party
+          Homyze is audited and certified by industry leading Third Party
           standards.
         </p>
 

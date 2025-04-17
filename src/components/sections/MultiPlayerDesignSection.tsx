@@ -6,31 +6,40 @@ function MultiPlayerDesignSection() {
   const cardData = {
     avatarUrl: "/images/alon.png",
     review:
-      "“Attio has played a crucial role in scaling, building out and evolving our go-to-market model. It allows my team to easily stay on top of everything.”",
+      "“Homyze has played a crucial role in scaling, building out and evolving our go-to-market model. It allows my team to easily stay on top of everything.”",
     name: "Alon Bartur",
-    position: "Co-foundr & CRO, Dopt",
+    position: "Co-founder & CTO, Tripply",
   };
   return (
     <section>
       <div>
         <CustomHeader
-          title="Designed for multiplayer."
-          description="The first trully multiplayer CRM. After all, the best work doesn’t come from silos."
+          title="Designed for all stakeholders."
+          description="For landlords and tenants to manage property, land, and communicate effortlessly."
         />
       </div>
 
-      <div className="w-full flex flex-col gap-[28px] items-center justify-center my-[64px] bg-white">
-        <img
-          src="/images/d_1.png"
-          alt="design image"
-          className="w-[calc(100vw-1.5rem)] md:w-[calc(100vw-8rem)]"
-        />
-        <img
-          src="/images/d_2.png"
-          alt="design image"
-          className="w-[calc(100vw-1.5rem)] md:w-[calc(100vw-8rem)]"
-        />
+      <div className="w-full flex flex-col md:flex-row gap-7 items-stretch justify-center my-16 bg-white px-4">
+        {/* Left - 2/3 width */}
+        <div className="p-4 rounded-2xl shadow-md border border-gray-200 bg-white w-full md:w-2/3 transition-all hover:shadow-xl">
+          <img
+            src="https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1g"
+            alt="Large CRM Image"
+            className="w-full h-full rounded-xl object-cover filter grayscale hover:grayscale-0 transition duration-500"
+          />
+        </div>
+
+        {/* Right - 1/3 width */}
+        <div className="p-4 rounded-2xl shadow-md border border-gray-200 bg-white w-full md:w-1/3 transition-all hover:shadow-xl">
+          <img
+            src="https://images.pexels.com/photos/11021173/pexels-photo-11021173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1g"
+            alt="Small CRM Image"
+            className="w-full h-full rounded-xl object-cover filter grayscale hover:grayscale-0 transition duration-500"
+          />
+        </div>
       </div>
+
+
 
       <div>
         <ReviewCard {...cardData} />

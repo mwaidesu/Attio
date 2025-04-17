@@ -10,7 +10,7 @@ function LovedByBuildersSection() {
       reviewerName: "Sebastiaan Debrouwere",
       reviewerTag: "@iamsebdeb",
       review:
-        "We use @attio on a daily basis for several internal processes, and I cannot rave enough about them. Incredible flexibility and features combined with super intuitive UI",
+        "We use Homyze on a daily basis for several internal processes, and I cannot rave enough about them. Incredible flexibility and features combined with super intuitive UI",
       timestamp: "10:01 PM - Apr 7, 2022",
     },
 
@@ -19,7 +19,7 @@ function LovedByBuildersSection() {
       reviewerName: "Alon",
       reviewerTag: "@alon",
       review:
-        "As an early stage startup I'm really loving using @attio - great balance of flexibility and prescriptiveness",
+        "As an early stage startup I'm really loving using Homyze - great balance of flexibility and prescriptiveness",
       timestamp: "6:57 PM - Dec 1, 2022",
     },
 
@@ -28,7 +28,7 @@ function LovedByBuildersSection() {
       reviewerName: "Alexandra Smith",
       reviewerTag: "@smith_alexandra",
       review:
-        "We use our CRM @attio for sales, fundraising, and recruiting. It's awesome",
+        "We use  Homyze for sales, fundraising, and recruiting. It's awesome",
       timestamp: "1:32 PM - Jan 4, 2023",
     },
 
@@ -37,7 +37,7 @@ function LovedByBuildersSection() {
       reviewerName: "Khrisna",
       reviewerTag: "@ntkris",
       review:
-        "Holy shit @attio is beautiful 😍 I've run my CRM on Notion to date. Hubspot & Salesforce too clunky. Sleek and simple, just what I need",
+        "Holy shit Homyze is beautiful 😍  Sleek and simple, just what I need",
       timestamp: "10:22 PM - Mar 3, 2023",
     },
 
@@ -46,7 +46,7 @@ function LovedByBuildersSection() {
       reviewerName: "Villa Gouse",
       reviewerTag: "@villa_gouse",
       review:
-        "Let's be honest, most CRMs suck. Overcomplicated, expensive, and you have to bend to their will...not the other way around. I am a huge fan of @attio - their product is rock-solid, customer support is AAA, and it is *very* flexible and simple.",
+        " I am a huge fan of Homyze - their product is rock-solid, customer support is AAA, and it is *very* flexible and simple.",
       timestamp: "10:22 PM - Mar 3, 2023",
     },
     {
@@ -54,7 +54,7 @@ function LovedByBuildersSection() {
       reviewerName: "Damian",
       reviewerTag: "@damian09",
       review:
-        "I've been using @attio to track applicants, manage my deal pipeline and manage the associated notes/tasks. The use-cases are unlimited; it truly feels like the Notion of CRM.",
+        "I've been using Homyze to track applicants, manage my deal pipeline and manage the associated tasks. The use-cases are unlimited.",
       timestamp: "10:22 PM - Mar 3, 2023",
     },
   ];
@@ -64,7 +64,7 @@ function LovedByBuildersSection() {
         <CustomStyledHeader
           titleColored="Loved by"
           titleUnColored="Builders"
-          description="Attio is the customer relationship management tool for everyone who values collaboration."
+          description="Homyze is the best property management tool for everyone who values collaboration."
         />
 
         <MainButton

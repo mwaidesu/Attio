@@ -38,12 +38,12 @@ function NavBar() {
   };
 
   return (
-    <div className="md:sticky md:top-0   md:shadow-none z-20 mt-[5rem] md:mt-0">
+    <div className="md:sticky md:top-0  lg:shadow-lg md:shadow-none z-20 mt-[5rem] md:mt-0 ">
       {/* DESKTOP */}
       <div className=" hidden lg:block animate-in fade-in zoom-in bg-white p-4">
         <div className="flex justify-between mx-4 items-center">
           <div>
-            <img src="/images/logo.svg" alt="logo" />
+            <img src="https://i.postimg.cc/FFBM5gn0/DREAMHOME.png" width={100} alt="logo" />
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             {links.map((item, index) => (
@@ -82,7 +82,7 @@ function NavBar() {
       >
         <div className="flex justify-between mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
-            <img src="/images/logo.svg" alt="logo" />
+            <img src = "https://i.postimg.cc/FFBM5gn0/DREAMHOME.png" width={100} alt="logo" />
           </div>
           <div className="flex items-center gap-[40px]">
             {menu ? (

@@ -9,7 +9,7 @@ function HeroHeaderSection() {
           New
         </div>
         <p className="text-[#31373D]">
-          How Pallet uses Attio to power their GTM
+           We deliver efficient, scalable and automated solutions for real estate.
         </p>
         <div>
           <ChevronRight />

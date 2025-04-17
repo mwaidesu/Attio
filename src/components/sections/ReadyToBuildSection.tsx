@@ -13,8 +13,8 @@ function ReadyToBuildSection() {
             "text-[40px] leading-tight md:leading-normal text-[#A0BFF8]"
           )}
         >
-          Ready to build your team&apos;s{" "}
-          <span className="text-white">dream CRM?</span>
+         Your{" "}
+          <span className="text-white">dream </span> property management software
         </p>
         <div className="flex gap-[12px] justify-start mt-[32px]">
           <MainButton

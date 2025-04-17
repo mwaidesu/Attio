@@ -3,7 +3,7 @@ import HeroHeaderSection from "./HeroHeaderSection";
 import MainButton from "../common/MainButton";
 import { cn } from "@/lib/utils";
 import { gilroyBold } from "@/lib/utils";
-import { HeroYoutubeModal } from "../modals/HeroYoutubeModal";
+
 
 function HeroSection() {
   return (
@@ -16,12 +16,11 @@ function HeroSection() {
             "text-4xl md:text-[92px] text-center text-primary md:leading-[5.5rem] my-8"
           )}
         >
-          Customer <br /> relationship magic.
+          Simplifying <br />  Property Management
         </div>
 
         <p className="mb-8 text-[22px] text-center text-[#31373D]">
-          Powerful, flexible and data-driven, Attio makes it easy to build the
-          exact CRM your business needs.
+          A seamless platform that simplifies communication, listings, and property management for Tenants, Landlords and Agents.
         </p>
 
         <div className="flex gap-[12px] justify-center">
@@ -37,9 +36,15 @@ function HeroSection() {
           />
         </div>
 
-        <div className="flex w-full justify-center">
-          <HeroYoutubeModal />
+        <div className="flex w-full justify-center mt-10">
+          <img
+            src="https://images.pexels.com/photos/7601163/pexels-photo-7601163.jpeg"
+            alt="Paved Walkway on Lawn"
+            className="w-full max-w-5xl h-auto rounded-xl object-cover filter grayscale hover:grayscale-0 transition duration-500"
+          />
         </div>
+
+
       </div>
     </section>
   );
